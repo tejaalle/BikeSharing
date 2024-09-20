@@ -24,18 +24,20 @@ I will spend more time working the tuning hyperparameters and also seeing If any
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 	model	hpo1	hpo2	hpo3	score
-0	initial	prescribed_values	prescribed_values	presets: 'high quality' (auto_stack=True)	1.80160
+0	initial	prescribed_values	 prescribed_values	presets: 'high quality' (auto_stack=True)	1.80160
 1	add_features	prescribed_values	prescribed_values	presets: 'high quality' (auto_stack=True)	0.46195
 2	hpo	Tree-Based Models: (XT, XGB )	{‘num_trials’: 20, ‘scheduler’ : ‘local’, ‘searcher’: ‘auto’}	presets: 'interpretable={‘auto_stack’: False, ‘hyperparameters’: ‘interpretable’}'	0.55036
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
 
-model_rmse_score.png
+
+<img src="model_rmse_score.png" alt="model_rmse_score.png" width="500"/>
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
-model_test_score.png
+
+<img src="model_test_score.png" alt="model_test_score.png" width="500"/>
 
 ## Summary
 In summary I learnt to use the AutoGlon How it makes use of differnt models and select the best model and inportance od exploratory data analysis and hyper parameter tuning
